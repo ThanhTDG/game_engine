@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+		"target": "es6", // Hỗ trợ ES6
+		"module": "esnext", // Sử dụng module ESNext
+		"moduleResolution": "node", // Giải quyết module theo cách của Node.js
+		"strict": true, // Bật chế độ kiểm tra nghiêm ngặt
+		"esModuleInterop": true, // Hỗ trợ import/export ES module
+		"sourceMap": true, // Tạo source map để debug
+		"baseUrl": ".", // Cấu hình base URL cho các import
+		"paths": {
+			"game-engine": ["../engine/src"] // Đường dẫn tới thư viện game-engine
+		}
+	},
+	"include": ["*.ts"] // Bao gồm tất cả các tệp TypeScript trong thư mục hiện tại
+}

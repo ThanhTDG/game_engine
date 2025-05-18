@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Simple Game</title>
+		<link
+			rel="stylesheet"
+			href="./styles.css"
+		/>
+	</head>
+	<body>
+		<div id="gameContainer">
+			<h1>Simple Game</h1>
+			<div id="gameInfo">
+				<input
+					type="url"
+					id="fileInput"
+					placeholder="Enter image URL"
+					value="https://www.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600nw-1037719192.jpg"
+				/>
+				<button id="loadImageButton">Load Image</button>
+			</div>
+			<div id="gameControls">
+				<canvas id="gameCanvas"></canvas>
+			</div>
+		</div>
+
+		<script
+			type="module"
+			src="./src/main.ts"
+		></script>
+	</body>
+</html>

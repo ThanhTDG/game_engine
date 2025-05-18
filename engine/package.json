@@ -1,0 +1,17 @@
+{
+    "name": "game-engine",
+    "version": "0.1.0",
+    "description": "A basic game engine module",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "watch": "tsc -w"
+    },
+    "devDependencies": {
+        "typescript": "^5.0.0"
+    },
+    "files": [
+        "dist"
+    ]
+}
